@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block title %}Low Stock{% endblock %}
+{% block content %}
+<h1>Low Stock Products</h1>
+<p class="text-muted">Products at or below their reorder threshold — time to raise a purchase order.</p>
+
+<div class="card">
+  <div class="table-responsive">
+    <table class="table table-striped align-middle mb-0">
+      <thead>
+        <tr><th>Name</th><th>SKU</th><th>Stock</th><th>Reorder Threshold</th></tr>
+      </thead>
+      <tbody>
+        {% for product in products %}
+        <tr>
+          <td>{{ product.name }}</td>
+          <td><span class="font-monospace">{{ product.sku }}</span></td>
+          <td><span class="badge badge-low-stock">{{ product.stock_quantity }}</span></td>
+          <td>{{ product.reorder_threshold }}</td>
+        </tr>
+        {% empty %}
+        <tr><td colspan="4" class="text-center text-muted py-4">Nothing is low on stock right now. 🎉</td></tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+{% endblock %}

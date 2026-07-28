@@ -1,0 +1,22 @@
+# Environments
+.venv/
+venv/
+env/
+
+# Environment variables / secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# Databases
+*.sqlite3
+test_db.sqlite3
+
+# Django
+media/
+staticfiles/
+
+# Editor
+.vscode/
