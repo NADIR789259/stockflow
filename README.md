@@ -23,21 +23,19 @@ role-based access so staff and owners see different things, and PDF
 invoices generated on the fly. It's the project I'd point to if someone
 asked "can you actually build something with Django, not just follow
 along?"
-
 ## Screenshots
 
 | Login | Products |
 |---|---|
-| <img width="1920" height="867" alt="Login" src="https://github.com/user-attachments/assets/2da3b4de-2230-4d44-b0e4-c28c5c781661" /> | <img width="1920" height="881" alt="Products" src="https://github.com/user-attachments/assets/04477672-a141-4152-a4e9-e05f9effca67" /> |
+| <img width="1920" height="867" alt="Login" src="https://github.com/user-attachments/assets/e82b832e-c40e-4c02-b688-75ffd2a23878" /> | <img width="1920" height="881" alt="Products" src="https://github.com/user-attachments/assets/543d1241-e44f-40b0-b9cb-6ded7d5d696c" /> |
 
 | Orders | Low Stock Dashboard |
 |---|---|
-| <img width="1920" height="881" alt="Orders" src="https://github.com/user-attachments/assets/2d0e72dc-7a15-43a6-a729-de6e3270ffaa" /> | <img width="1920" height="898" alt="Low Stock Products" src="https://github.com/user-attachments/assets/cb1d89b4-dd39-4020-b68e-c96f38f07063" /> |
+| <img width="1920" height="881" alt="Orders" src="https://github.com/user-attachments/assets/5ab8dbfb-07ab-4ccf-8d37-804d41000d50" /> | <img width="1920" height="898" alt="Low Stock Products" src="https://github.com/user-attachments/assets/56c37c68-28c3-480b-84cf-795f4f4980c8" /> |
 
 **Sales Report**
 
-<img width="1920" height="869" alt="Sales Reports" src="https://github.com/user-attachments/assets/00459f79-25f6-4db0-9580-2f833de359d9" />
-
+<img width="1920" height="869" alt="Sales Reports" src="https://github.com/user-attachments/assets/da8b7da3-cacb-4a5d-8ce4-68d515fd1c67" />
 ## Features
 
 - **Product catalog** — categories, SKUs, pricing, and live stock levels
